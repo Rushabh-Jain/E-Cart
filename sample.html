@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Living Room Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <div class="menu-icon"><i class="fas fa-bars"></i></div>
+    <nav class="main-nav">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Magazine</a>
+    </nav>
+
+    <div class="search-bar">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="living room">
+    </div>
+
+    <div class="top-actions">
+      <i class="fas fa-shopping-cart"></i>
+      <a href="#">Login</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h4>FILTER BY</h4>
+      <div class="filter-group">
+        <label>Collection</label>
+        <select><option>Select</option></select>
+      </div>
+      <div class="filter-group">
+        <label>Color</label>
+        <select><option>Select</option></select>
+      </div>
+      <div class="filter-group">
+        <label>Category</label>
+        <select><option>Select</option></select>
+      </div>
+      <div class="filter-group">
+        <label>Price Range</label>
+        <input type="range" min="0" max="12000">
+        <div class="price-labels">
+          <span>$0</span><span>$12,000+</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Product Listing -->
+    <main class="product-area">
+
+      <div class="product-grid">
+        <!-- Example Product -->
+        <div class="product-card">
+          <img src="C:\Users\Axeno\Desktop\site\images\sofa.jpg" alt="Coombes">
+		  <div class="overlay"></div>
+          <div class="product-info">
+			<h5>Coombes</h5>
+			<div class="product-info-1">
+				<p class="category">Lounge</p>
+				<p class="price">$2,600</p>
+			</div>
+			<div class="product-info-2">
+				<p class="stars">★★★★★</p>
+				<i class="fas fa-cart-plus cart-icon"></i>
+			</div>
+          </div>
+        </div>
+
+        <!-- Repeat for other products -->
+        <div class="product-card">
+          <img src="C:\Users\Axeno\Desktop\site\images\side-table.jpg" alt="Kewee Set">
+		  <div class="overlay"></div>
+          <div class="product-info">
+            <h5>Kewee Set</h5>
+			<div class="product-info-1">
+				<p class="category">Table & Chairs</p>
+				<p class="price">$590</p>
+            </div>
+            <div class="product-info-2">
+				<p class="stars">★★★★★</p>
+				<i class="fas fa-cart-plus cart-icon"></i>
+			</div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="C:\Users\Axeno\Desktop\site\images\book-shelf.jpg" alt="Nille">
+		  <div class="overlay"></div>
+          <div class="product-info">
+            <h5>Nille</h5>
+			<div class="product-info-1">
+				<p class="category">Armchair</p>
+				<p class="price">$950</p>
+            </div>
+            <div class="product-info-2">
+				<p class="stars">★★★★★</p>
+				<i class="fas fa-cart-plus cart-icon"></i>
+			</div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="C:\Users\Axeno\Desktop\site\images\shelf.jpg" alt="Blanko">
+		  <div class="overlay"></div>
+          <div class="product-info">
+            <h5>Blanko</h5>
+			<div class="product-info-1">
+				<p class="category">Side Table</p>
+				<p class="price">$90</p>
+            </div>
+            <div class="product-info-2">
+				<p class="stars">★★★★★</p>
+				<i class="fas fa-cart-plus cart-icon"></i>
+			</div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="C:\Users\Axeno\Desktop\site\images\shelf.jpg" alt="Momo">
+		  <div class="overlay"></div>
+          <div class="product-info">
+            <h5>Momo</h5>
+			<div class="product-info-1">
+				<p class="category">Bookshelf</p>
+				<p class="price">$890</p>
+            </div>
+            <div class="product-info-2">
+				<p class="stars">★★★★★</p>
+				<i class="fas fa-cart-plus cart-icon"></i>
+			</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <div class="pagination">
+	<button class="active">1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+  </div>
+</body>
+</html>
